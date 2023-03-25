@@ -1,1 +1,28 @@
 
+ Example of Singleton Design Pattern:
+ 
+ Logging: Prevent statements that are output to console why bug happens and log can be generated from multiple times. so Logger should be a single object.
+          -> AWS Cloud Watch
+					
+ How to make Constructor Singlonton
+    1. Create Private Constructor.
+    2. Create static method to get instance.
+		
+Concurrency when two threads are trying to create singleton object.
+
+-> Do not take a null if obj is not null directly you can return obj.
+-> Remember real washroom problem. when washroom is empty no need to look from outside. when anyone inside then it will lock it.
+
+Double Check locking:
+
+public static Database getInstance(){
+	if(obj==null){
+		Synchronized(this){
+			if(obj==null){
+				obj=new Database();
+			}
+		}
+	}
+	return obj;
+}
+ 	
