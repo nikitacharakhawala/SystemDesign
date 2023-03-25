@@ -1,1 +1,13 @@
+class is having lots of attributes.
+
+Class Student{
+  name
+  salary
+  college,
+  phonenumber,
+  id
+}
+
+We want to validate objects of this class before we create them like fName & lastName>=3 characters.
+
 
