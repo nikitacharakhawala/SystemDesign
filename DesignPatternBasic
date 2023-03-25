@@ -1,1 +1,21 @@
 
+How Design Pattern Used:
+  -> Shared Vocabulary
+  -> Save lots of Time
+  
+ Creational Design Patterns
+    -> Solve problems arround how Objects of a class shoulb be created.
+   
+  Structural Design Patterns:
+    -> How Code base be structured
+  
+  Behavioural Design Patterns:
+    -> Solve problems arround implementing behavioural.  
+   
+  Creational Design Patterns:
+    -> Singleton
+    -> Factory
+    -> Builder
+    -> Prototype
+    
+   
