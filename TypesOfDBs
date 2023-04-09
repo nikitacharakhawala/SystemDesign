@@ -1,1 +1,48 @@
 
+Types Of DBs
+-Relational
+-Non-Relational
+-File
+-Network
+
+Relational DB:
+Traditional databases store data in tabular form. It provides various relations and constraint to store the data.
+
+ACID
+
+A- Atomicity:
+Transaction in a database can happen completly or not.
+
+C-Consistency:
+At any given point of time state of the database should be consistant.
+
+I-Isolation:
+Two transactions should not know about each other.
+
+D-Durability:
+Database ensures whatever writes/updates are happening it should be persistent and stored into the database.
+
+Advantages:
+-Databses for iner related complex data can be easily designed.
+-Ensures garbage or null value is not populated into the DB
+-Ensures all other schema contraints are followed.
+
+Relations DBs not Supports:-
+-How the schema of a data is envolves.
+-Joins can become expansive when more tables, data envolves
+-Scaling (Horizontal Scaling is difficult)
+
+
+Non-Relational DB:
+Types of Non-relational DBs:
+KV store (Key-value store)
+Document Based - no Fixed Schema
+Search DBs (Advanced indexes)
+Columnar DB
+
+
+
+
+
+
+
